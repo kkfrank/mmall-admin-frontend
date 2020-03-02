@@ -1,0 +1,27 @@
+.nav-top{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid #efefef;
+  background-color: #fff;
+  z-index: 9999;
+  .welcome{
+    float: right;
+    line-height: 60px;
+    padding: 0 30px;
+    cursor: pointer;
+  }
+  .logout{
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: #fff;
+    width: 210px;
+    padding: 12px 22px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  }
+}

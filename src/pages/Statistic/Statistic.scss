@@ -1,0 +1,33 @@
+.count-panel{
+  .user-panel, .product-panel, .order-panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 180px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    transition: all .3s;
+    .desc{
+      font-size: 20px;
+      margin-top: 10px;
+      .fa{
+        margin-right: 6px;
+      }
+    }
+    &:hover{
+      color: #555;
+      transform: scale(1.08);
+    }
+  }
+  .user-panel{
+    background-color: #f0ad4e;
+  }
+  .product-panel{
+    background-color: #5cb85c;
+  }
+  .order-panel{
+    background-color: #4cb1cf;
+  }
+}

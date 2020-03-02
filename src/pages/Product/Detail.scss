@@ -1,0 +1,61 @@
+.sub-images{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  >div{
+    width: calc(100% - 80px);
+  }
+  img{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+  }
+}
+
+div.unit{
+  input, select{
+    width: calc(100% - 40px);
+  }
+}
+
+.detail-raw{
+  p{
+    margin: 15px 0;
+  }
+  img{
+    max-height: 400px!important;
+  }
+}
+
+.upload-img-item{
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 8px 8px 8px 0;
+  img{
+    margin: 0;
+    border: 1px solid #ddd;
+  }
+  .close{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+    padding:0 4px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+.category-box{
+  width: calc(100% - 100px);
+  display: inline-block;
+  vertical-align: middle;
+  select{
+    width: 40%;
+    margin: 0 20px 10px 0;
+
+  }
+}

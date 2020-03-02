@@ -1,0 +1,15 @@
+.status-box{
+  span{
+    display: inline-block;
+    min-width: 50px;
+  }
+  a{
+    white-space: nowrap;
+  }
+  .btn.bg-yellow{
+    border-color:#eea236;
+    &:hover{
+      background-color: #f5ad48;
+    }
+  }
+}
